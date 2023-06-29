@@ -1,0 +1,38 @@
+.modal-container{
+    padding: .4rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 1px 20px 3px;
+    width: 25vw;
+    height: 100%;
+    transition: width .2s ease-in;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%,0%);
+    z-index: 11;
+}
+
+.modal-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.178);
+    z-index: 10;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width:280px) and (max-width: 767px) {
+    .modal-container{
+        transition: width .2s ease-in;
+    }
+}
+
+@media (min-width:540px) and (max-width: 1260px) {
+    
+}

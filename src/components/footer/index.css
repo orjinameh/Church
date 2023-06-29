@@ -1,0 +1,32 @@
+.long-line{
+    background-color: black;
+    width: 100vw;
+    box-sizing: border-box;
+    height: 5rem;
+    padding: 1rem;
+    position: static;
+    transform: translate(-1%,12%);
+}
+
+.long-line h4{
+    color: white;
+    padding: 0;
+    padding-bottom: .5vw;
+    margin: 0;
+    text-align: left;
+}
+
+.footer svg{
+    width: 1rem;
+    margin-right: .5rem;
+}
+
+@media (min-width:280px) and (max-width: 767px) {
+    .long-line{
+        transform: translate(-2%,12%);
+    }
+}
+
+@media (min-width:540px) and (max-width: 1260px) {
+    
+}

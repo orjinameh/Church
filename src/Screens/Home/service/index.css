@@ -1,0 +1,20 @@
+.speaker img{
+    margin-top: 1rem;
+    width: 25vw;
+}
+
+@media (min-width:280px) and (max-width: 767px) {
+    .speaker img{
+        margin-top: 1rem;
+        width: 55vw;
+    }
+
+    .exalt{
+        width: 86vw;
+        margin: auto;
+    }
+
+    h3{
+        font-weight: bolder;
+    }
+}
